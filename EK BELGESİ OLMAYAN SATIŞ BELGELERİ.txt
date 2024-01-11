@@ -49,7 +49,7 @@ TABLO = '<!DOCTYPE html> <html> <body>';
 IF TMPTABLE_ROWCOUNT > 0 THEN
 	TABLO = TABLO + '<h3>A1, A2, A3 VE A4 BELGE TİPLERİ TABLODAKİ GİBİDİR,</h3>';
 	TABLO = TABLO + '<table border = "1" style="width:340%;">';
-	TABLO = TABLO + '<tr style="font-size:12px;"><th>BELGE TİPİ</th><th>BELGE NUMARASI</th><th>SİPARİŞ BELGE TARİHİ</th><th>SSH ONAY</th><th>CLİ BELGEDEN İTİBAREN KAÇ GÜN GEÇTİ</th></tr>';
+	TABLO = TABLO + '<tr style="font-size:12px;"><th>BELGE TİPİ</th><th>BELGE NUMARASI</th><th>SİPARİŞ BELGE TARİHİ</th><th>CLİ BELGEDEN İTİBAREN KAÇ GÜN GEÇTİ</th></tr>';
 
 	LOOP AT TMPTABLE 
 	BEGIN
